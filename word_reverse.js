@@ -6,7 +6,8 @@ function wordReverse(text) {
         reverseWords.push(element);
         
     }
-    return reverseWords;
+    let joined = reverseWords.join(' ');
+    return joined;
 }
 
 let myString = 'I Am A Good Boy';
